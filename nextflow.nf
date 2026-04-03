@@ -28,7 +28,7 @@ input:
 output:
  tuple val(name), file("${name}/*")  ,emit:g_1_directory00_g_11 
 
-container "quay.io/viascientific/dancemapper:1.0.1"
+container "quay.io/ummsbiocore/dancemapper:1.0.1"
 
 script:
 
@@ -112,7 +112,7 @@ output:
  path "*"  ,emit:g_11_directory00 
  path "${name}.png" ,optional:true  ,emit:g_11_image11 
 
-container "quay.io/viascientific/dancemapper:1.0.1"
+container "quay.io/ummsbiocore/dancemapper:1.0.1"
 
 script:
 
